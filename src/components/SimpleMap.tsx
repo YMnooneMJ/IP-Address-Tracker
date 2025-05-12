@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 
@@ -16,7 +16,7 @@ const SimpleMap = ({ latitude, longitude }: props) => {
         ref={mapRef}
         scrollWheelZoom={false}
         style={{
-          height: "28vw",
+          height: "68vh",
           width: "100vw",
           position: "absolute",
           left: "0",
